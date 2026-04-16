@@ -1,0 +1,1507 @@
+{
+    "tester": [
+        {
+            "q": "test"
+        }
+    ],
+    "kaphin": [
+        {
+            "original_question": "how old are you",
+            "classification": "Biased",
+            "bias_type": "Non-Software / Domain Violation",
+            "suggested_question": "This tool is restricted to software and professional domain questions only.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software / Domain Violation",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the software engineering or professional domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what is mean by database",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "what is mean by database",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "how many kids you have",
+            "classification": "Biased",
+            "bias_type": "Gender & Family",
+            "suggested_question": "What is your professional availability?",
+            "is_biased": true,
+            "overall_confidence": 0.9,
+            "insights": [
+                {
+                    "category": "Gender & Family",
+                    "confidence": 0.9,
+                    "explanation": "Questions about children often lead to caregivers bias.",
+                    "legal_flag": true,
+                    "biased_phrases": [
+                        "kids"
+                    ],
+                    "suggestions": [
+                        "What is your professional availability?",
+                        "How do you handle team dependencies?"
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what is mean by database",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "what is mean by database",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "what is mean by Python",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "what is mean by Python",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "what is mean by",
+            "classification": "Biased",
+            "bias_type": "Non-Software / Domain Violation",
+            "suggested_question": "This tool is restricted to software and professional domain questions only.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software / Domain Violation",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the software engineering or professional domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "SQL",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "SQL",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "what is mean by database",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "what is mean by database",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "what is mean by SQL",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "what is mean by SQL",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "okay do you have religion",
+            "classification": "Biased",
+            "bias_type": "Religion & Belief",
+            "suggested_question": "Focus on technical skills and job-related qualifications.",
+            "is_biased": true,
+            "overall_confidence": 0.98,
+            "insights": [
+                {
+                    "category": "Religion & Belief",
+                    "confidence": 0.98,
+                    "explanation": "Direct inquiry into religious affiliation.",
+                    "legal_flag": true,
+                    "biased_phrases": [
+                        "religion"
+                    ],
+                    "suggestions": [
+                        "Focus on technical skills and job-related qualifications."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what is mean by database",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "what is mean by database",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "what is mean by Python",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "what is mean by Python",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "how old are you",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "which religion",
+            "classification": "Biased",
+            "bias_type": "Religion & Belief",
+            "suggested_question": "Focus on technical skills and job-related qualifications.",
+            "is_biased": true,
+            "overall_confidence": 0.98,
+            "insights": [
+                {
+                    "category": "Religion & Belief",
+                    "confidence": 0.98,
+                    "explanation": "Direct inquiry into religious affiliation.",
+                    "legal_flag": true,
+                    "biased_phrases": [
+                        "religion"
+                    ],
+                    "suggestions": [
+                        "Focus on technical skills and job-related qualifications."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "hi how are you",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "explain your skills",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "how do you read this to this",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "how do you rate your skills of version control 1 to 10",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "time when you take in the leadership role",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "time when you take in the leadership role",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "describe the time when you have taken the leadership role",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "describe the time when you have taken the leadership role",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "what is disorder",
+            "classification": "Biased",
+            "bias_type": "Neural Bias Detection",
+            "suggested_question": "Focus strictly on professional skills and technical scenarios.",
+            "is_biased": true,
+            "overall_confidence": 0.9499624967575073,
+            "insights": [
+                {
+                    "category": "Neural Bias Detection",
+                    "confidence": 0.9499624967575073,
+                    "explanation": "Semantic analysis suggests potential underlying bias or unprofessional intent.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "what is disorder"
+                    ],
+                    "suggestions": [
+                        "Focus strictly on professional skills and technical scenarios."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what is the pH value of water",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "can you explain the sum of the functions used in Python",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "Would you be able to explain the sum of the functions used in Python",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "explain group by",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "okay and database can you",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "okay and database Would you be able to",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "in SQL differentiate between inner joint and Outer joint",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "in SQL differentiate between inner joint and Outer joint",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "in the question of",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what is your age",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what's your native language",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what is your age",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what's your religion",
+            "classification": "Biased",
+            "bias_type": "Religion & Belief",
+            "suggested_question": "Focus on technical skills and job-related qualifications.",
+            "is_biased": true,
+            "overall_confidence": 0.98,
+            "insights": [
+                {
+                    "category": "Religion & Belief",
+                    "confidence": 0.98,
+                    "explanation": "Direct inquiry into religious affiliation.",
+                    "legal_flag": true,
+                    "biased_phrases": [
+                        "religion"
+                    ],
+                    "suggestions": [
+                        "Focus on technical skills and job-related qualifications."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "not funny",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "explain the functions in the python",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "explain the functions in the python",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "explain",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what's your age",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "explain the different functions in Python",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "explain the different functions in Python",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "what's your age",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "and alternative",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "can explain the different functions in Python",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "can explain the different functions in Python",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "basically",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        }
+    ],
+    "sanjay": [
+        {
+            "original_question": "how old are you",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what is mean by database",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "what is mean by database",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "what is mean by coding",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what is mean by beta success",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "what is mean by beta success",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "what is mean by data structures",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what is meant by algorithm",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "what is meant by algorithm",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "what is mean by SQL",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "what is mean by SQL",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "casting",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "old are you",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what is your age",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "are you married",
+            "classification": "Biased",
+            "bias_type": "Gender & Family",
+            "suggested_question": "What is your professional availability?",
+            "is_biased": true,
+            "overall_confidence": 0.9,
+            "insights": [
+                {
+                    "category": "Gender & Family",
+                    "confidence": 0.9,
+                    "explanation": "Marital status is a protected category.",
+                    "legal_flag": true,
+                    "biased_phrases": [
+                        "married"
+                    ],
+                    "suggestions": [
+                        "What is your professional availability?",
+                        "How do you handle team dependencies?"
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "how old are you",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "with religion are you",
+            "classification": "Biased",
+            "bias_type": "Religion & Belief",
+            "suggested_question": "Focus on technical skills and job-related qualifications.",
+            "is_biased": true,
+            "overall_confidence": 0.98,
+            "insights": [
+                {
+                    "category": "Religion & Belief",
+                    "confidence": 0.98,
+                    "explanation": "Direct inquiry into religious affiliation.",
+                    "legal_flag": true,
+                    "biased_phrases": [
+                        "religion"
+                    ],
+                    "suggestions": [
+                        "Focus on technical skills and job-related qualifications."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what is mean by coding",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what is mean by C++ program",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what is mean by Python program",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "what is mean by Python program",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "what is mean by Data Structures and Algorithm",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "what is mean by Data Structures and Algorithm",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "what is mean by networks",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what is mean by computer network",
+            "classification": "Biased",
+            "bias_type": "Non-Software Question",
+            "suggested_question": "Please ask a question related to software engineering or professional conduct.",
+            "is_biased": true,
+            "overall_confidence": 0.95,
+            "insights": [
+                {
+                    "category": "Non-Software Question",
+                    "confidence": 0.95,
+                    "explanation": "This question is not related to the professional software engineering domain.",
+                    "legal_flag": false,
+                    "biased_phrases": [
+                        "N/A"
+                    ],
+                    "suggestions": [
+                        "Please ask a question related to software engineering or professional conduct."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        },
+        {
+            "original_question": "what is mean by database",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "what is mean by database",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "what is mean by queries and SQL",
+            "classification": "Safe Question",
+            "bias_type": "None",
+            "suggested_question": "what is mean by queries and SQL",
+            "is_biased": false,
+            "overall_confidence": 0.98,
+            "insights": [],
+            "tone_alternatives": {}
+        },
+        {
+            "original_question": "where are you from",
+            "classification": "Biased",
+            "bias_type": "Cultural & Origin",
+            "suggested_question": "Focus on technical skills and job-related qualifications.",
+            "is_biased": true,
+            "overall_confidence": 0.98,
+            "insights": [
+                {
+                    "category": "Cultural & Origin",
+                    "confidence": 0.98,
+                    "explanation": "National origin is a protected class.",
+                    "legal_flag": true,
+                    "biased_phrases": [
+                        "where are you from"
+                    ],
+                    "suggestions": [
+                        "Focus on technical skills and job-related qualifications."
+                    ]
+                }
+            ],
+            "tone_alternatives": {
+                "formal": [
+                    "Could you explain your technical approach to this problem?"
+                ],
+                "friendly": [
+                    "Can you share your experience with this topic?"
+                ],
+                "technical": [
+                    "Describe the implementation details and trade-offs."
+                ]
+            }
+        }
+    ]
+}

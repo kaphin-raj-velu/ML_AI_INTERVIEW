@@ -1,0 +1,2346 @@
+{
+    "domains": {
+        "Software Engineering": {
+            "safe_contexts": [
+                "parent process",
+                "child node",
+                "parent component",
+                "child component",
+                "parent class",
+                "child class",
+                "native app",
+                "native mobile",
+                "native code",
+                "cloud native",
+                "react native",
+                "native bridge",
+                "background task",
+                "background process",
+                "background job",
+                "background sync",
+                "background thread",
+                "stress test",
+                "load testing",
+                "performance testing",
+                "fuzz testing",
+                "garbage collection",
+                "memory management",
+                "pointers",
+                "recursion",
+                "inheritance",
+                "class hierarchy",
+                "binary tree",
+                "linked list",
+                "dag",
+                "react hooks",
+                "state management",
+                "props drilling",
+                "context api",
+                "redux",
+                "zustand",
+                "kubernetes",
+                "docker",
+                "terraform",
+                "ansible",
+                "jenkins",
+                "github actions",
+                "binary search",
+                "depth first search",
+                "breadth first search",
+                "frontend developer",
+                "backend architecture",
+                "fullstack engineer",
+                "master branch",
+                "slave node",
+                "whitelist",
+                "blacklist",
+                "grandfathered"
+            ],
+            "technical_keywords": [
+                "algorithm",
+                "complexity",
+                "database",
+                "query",
+                "optimization",
+                "sql",
+                "nosql",
+                "mongodb",
+                "postgres",
+                "deploy",
+                "staging",
+                "production",
+                "refactor",
+                "unit test",
+                "api",
+                "rest",
+                "graphql",
+                "grpc",
+                "integration",
+                "docker",
+                "kubernetes",
+                "autoscaling",
+                "shard",
+                "replication",
+                "encryption",
+                "auth",
+                "token",
+                "payload",
+                "endpoint",
+                "middleware",
+                "latency",
+                "throughput",
+                "git",
+                "branch",
+                "merge",
+                "commit",
+                "pull request",
+                "rebase",
+                "aws",
+                "azure",
+                "gcp",
+                "lambda",
+                "react",
+                "vue",
+                "angular",
+                "node",
+                "javascript",
+                "typescript",
+                "python",
+                "java",
+                "golang",
+                "rust",
+                "c++",
+                "c#",
+                "ruby",
+                "php",
+                "swift",
+                "kotlin",
+                "flutter",
+                "devops",
+                "cloud",
+                "microservices",
+                "frontend",
+                "backend",
+                "fullstack"
+            ]
+        },
+        "Professional & Company": {
+            "safe_contexts": [
+                "stress interview",
+                "pressure management",
+                "corporate culture",
+                "company values",
+                "mission statement",
+                "professional growth",
+                "career path",
+                "soft skills",
+                "conflict resolution",
+                "team dynamic",
+                "collaborative environment",
+                "work ethic",
+                "handling pressure",
+                "difficult client",
+                "failure",
+                "success",
+                "mistake",
+                "high pressure",
+                "under stress",
+                "challenging situation",
+                "difficult colleague"
+            ],
+            "technical_keywords": [
+                "leadership",
+                "teamwork",
+                "communication",
+                "negotiation",
+                "problem solving",
+                "adaptability",
+                "resilience",
+                "initiative",
+                "integrity",
+                "accountability",
+                "benchmarks",
+                "kpi",
+                "okr",
+                "performance review",
+                "feedback loop",
+                "company vision",
+                "stakeholders",
+                "clients",
+                "customers",
+                "requirements",
+                "deadlines",
+                "productivity",
+                "management",
+                "strategy",
+                "roadmap",
+                "salary",
+                "benefits",
+                "compensation",
+                "perks",
+                "relocation",
+                "remote work",
+                "working hours",
+                "vacation",
+                "insurance",
+                "onboarding",
+                "training",
+                "mentorship",
+                "diversity",
+                "inclusion",
+                "equity",
+                "belonging",
+                "ethics",
+                "compliance",
+                "policy",
+                "regulations",
+                "process",
+                "stress",
+                "stressful",
+                "stressing",
+                "pressure",
+                "pressured",
+                "conflict",
+                "conflicts",
+                "fail",
+                "failure",
+                "failed",
+                "failing",
+                "weakness",
+                "weaknesses",
+                "strength",
+                "strengths",
+                "tough",
+                "overcome",
+                "adversity",
+                "challenge",
+                "challenges",
+                "challenging",
+                "goal",
+                "goals",
+                "aspirations",
+                "ambition"
+            ]
+        }
+    },
+    "bias_rules": {
+        "Gender & Family": [
+            {
+                "pattern": "pregnant|pregnancy|maternity|expecting|paternity|baby",
+                "weight": 1.0,
+                "explanation": "Direct inquiry into reproductive status is discriminatory."
+            },
+            {
+                "pattern": "children|kids|child|family status|offspring|parental",
+                "weight": 0.9,
+                "explanation": "Questions about children often lead to caregivers bias."
+            },
+            {
+                "pattern": "marital status|married|spouse|husband|wife|single|maiden",
+                "weight": 0.9,
+                "explanation": "Marital status is a protected category."
+            },
+            {
+                "pattern": "childcare|babysitter|daycare|nanny",
+                "weight": 0.8,
+                "explanation": "Inquiring about personal care arrangements is biased."
+            },
+            {
+                "pattern": "family commitments|family obligations",
+                "weight": 0.8,
+                "explanation": "Indirectly targets parents or caregivers."
+            }
+        ],
+        "Age": [
+            {
+                "pattern": "digital native|tech savvy|energetic|fresh|vibrant|dynamic",
+                "weight": 0.8,
+                "explanation": "Favoring younger candidates via 'culture' terms."
+            },
+            {
+                "pattern": "graduate|graduated|finish school|college years|high school",
+                "weight": 0.7,
+                "explanation": "Calculating age via dates is a surrogate for ageism."
+            },
+            {
+                "pattern": "overqualified|too much experience|senior status|long tooth",
+                "weight": 0.8,
+                "explanation": "Coded language used to reject older workers."
+            },
+            {
+                "pattern": "retirement|pension|golden years|old school",
+                "weight": 0.9,
+                "explanation": "Directly references age-related milestones."
+            },
+            {
+                "pattern": "\\b\\d{2}\\b years? old|younger|older",
+                "weight": 1.0,
+                "explanation": "Direct age-based inquiry."
+            }
+        ],
+        "Cultural & Origin": [
+            {
+                "pattern": "where are you from|originally from|heritage|background|roots",
+                "weight": 1.0,
+                "explanation": "National origin is a protected class."
+            },
+            {
+                "pattern": "accent|speak like|native speaker|broken english",
+                "weight": 0.9,
+                "explanation": "Bias based on linguistic characteristics."
+            },
+            {
+                "pattern": "passport|citizen|visa|h1b|green card|right to work",
+                "weight": 0.8,
+                "explanation": "Verify eligibility only; don't probe origin."
+            },
+            {
+                "pattern": "your name.*unique|exotic|foreign|where.*name",
+                "weight": 0.7,
+                "explanation": "Microaggressions regarding perceived origin."
+            },
+            {
+                "pattern": "lifestyle|vibe|social fit|culture fit",
+                "weight": 0.8,
+                "explanation": "Terms like 'lifestyle' or 'vibe' are often surrogates for discriminatory bias."
+            }
+        ],
+        "Religion & Belief": [
+            {
+                "pattern": "religion|religious|church|mosque|temple|belief",
+                "weight": 1.0,
+                "explanation": "Direct inquiry into religious affiliation."
+            },
+            {
+                "pattern": "christmas|ramadan|diwali|holiday|holy day|sunday off",
+                "weight": 0.9,
+                "explanation": "Inquiring about religious observances is discriminatory."
+            },
+            {
+                "pattern": "spiritual|value system|moral compass",
+                "weight": 0.7,
+                "explanation": "Can be proxies for religious bias."
+            }
+        ]
+    },
+    "suggestions": {
+        "Gender & Family": [
+            "What is your professional availability?",
+            "How do you handle team dependencies?"
+        ],
+        "Age": [
+            "Discuss your experience with high-scale systems.",
+            "How do you mentor junior developers?"
+        ],
+        "Cultural": [
+            "What is your communication style for global teams?",
+            "How do you handle diverse viewpoints?"
+        ],
+        "Irrelevant": [
+            "Let's focus on the technical requirements.",
+            "Can you explain your CI/CD workflow?"
+        ]
+    },
+    "mock_sessions": [
+        {
+            "q": "Which neighborhood did you grow up in?",
+            "type": "B"
+        },
+        {
+            "q": "Will your family commitments interfere with travel?",
+            "type": "B"
+        },
+        {
+            "q": "In Redis, how does scalability impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle ethical dilemmas in the workplace?",
+            "type": "S"
+        },
+        {
+            "q": "Do you have a babysitter for your kids?",
+            "type": "B"
+        },
+        {
+            "q": "In Kubernetes, how does CI/CD impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Do you have a babysitter for your kids?",
+            "type": "B"
+        },
+        {
+            "q": "How do you prioritize tasks under a tight deadline?",
+            "type": "S"
+        },
+        {
+            "q": "Are you planning to have children soon?",
+            "type": "B"
+        },
+        {
+            "q": "In Azure, how does sharding impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "What is your approach to code reviews?",
+            "type": "S"
+        },
+        {
+            "q": "What does your husband think about this career move?",
+            "type": "B"
+        },
+        {
+            "q": "What is your greatest weakness and how are you working to improve it?",
+            "type": "S"
+        },
+        {
+            "q": "What are your long-term career goals within this organization?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain auth within the context of GCP architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Is your spouse okay with you working nights?",
+            "type": "B"
+        },
+        {
+            "q": "What is your greatest weakness and how are you working to improve it?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Redis sharding in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "In AWS, how does scalability impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Snowflake serverless?",
+            "type": "S"
+        },
+        {
+            "q": "Are you a digital native?",
+            "type": "B"
+        },
+        {
+            "q": "Explain the difference between Angular auth and auth.",
+            "type": "S"
+        },
+        {
+            "q": "What would you do if you were halfway through a project and realized you had made a significant technical mistake?",
+            "type": "S"
+        },
+        {
+            "q": "Do you need a visa to work here?",
+            "type": "B"
+        },
+        {
+            "q": "How do you stay updated with industry trends?",
+            "type": "S"
+        },
+        {
+            "q": "Does your wife work as well?",
+            "type": "B"
+        },
+        {
+            "q": "Is your spouse okay with you working nights?",
+            "type": "B"
+        },
+        {
+            "q": "What are the best practices for Docker microservices?",
+            "type": "S"
+        },
+        {
+            "q": "Describe your experience working in diverse team environments.",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Docker testing in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "Are you on any medication that affects your work?",
+            "type": "B"
+        },
+        {
+            "q": "What church do you go to?",
+            "type": "B"
+        },
+        {
+            "q": "Where is your accent from?",
+            "type": "B"
+        },
+        {
+            "q": "What church do you go to?",
+            "type": "B"
+        },
+        {
+            "q": "Explain the difference between Docker scalability and microservices.",
+            "type": "S"
+        },
+        {
+            "q": "What is your religion?",
+            "type": "B"
+        },
+        {
+            "q": "Are you on any medication that affects your work?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle Python sharding in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "Do you have any physical limitations?",
+            "type": "B"
+        },
+        {
+            "q": "In Redis, how does performance impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Tell me about a time you had a major conflict with a manager.",
+            "type": "S"
+        },
+        {
+            "q": "Which neighborhood did you grow up in?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle GCP microservices in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "How many more years do you see yourself working?",
+            "type": "B"
+        },
+        {
+            "q": "Explain the difference between TensorFlow auth and sharding.",
+            "type": "S"
+        },
+        {
+            "q": "In Azure, how does latency impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain caching within the context of Postgres architecture?",
+            "type": "S"
+        },
+        {
+            "q": "How do you prioritize tasks under a tight deadline?",
+            "type": "S"
+        },
+        {
+            "q": "Do you have any health issues we should know about?",
+            "type": "B"
+        },
+        {
+            "q": "Can you explain microservices within the context of Kubernetes architecture?",
+            "type": "S"
+        },
+        {
+            "q": "What is your strategy for handling an aggressive or confrontational interviewer during a stress interview?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle mistakes or failures in your work?",
+            "type": "S"
+        },
+        {
+            "q": "When did you graduate from high school?",
+            "type": "B"
+        },
+        {
+            "q": "Explain the difference between GraphQL state management and sharding.",
+            "type": "S"
+        },
+        {
+            "q": "Where is your accent from?",
+            "type": "B"
+        },
+        {
+            "q": "What are the best practices for Azure sharding?",
+            "type": "S"
+        },
+        {
+            "q": "Is this your last job before retirement?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle AWS algorithms in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "In Spark, how does performance impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Are you a single parent?",
+            "type": "B"
+        },
+        {
+            "q": "What are the best practices for Python algorithms?",
+            "type": "S"
+        },
+        {
+            "q": "How do you stay updated with industry trends?",
+            "type": "S"
+        },
+        {
+            "q": "Which neighborhood did you grow up in?",
+            "type": "B"
+        },
+        {
+            "q": "What are the best practices for Kafka sharding?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain testing within the context of Vue architecture?",
+            "type": "S"
+        },
+        {
+            "q": "How many more years do you see yourself working?",
+            "type": "B"
+        },
+        {
+            "q": "In React, how does monitoring impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Kubernetes CI/CD and caching.",
+            "type": "S"
+        },
+        {
+            "q": "In TensorFlow, how does monitoring impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "How is your mental health?",
+            "type": "B"
+        },
+        {
+            "q": "Describe a situation where you had to work with extremely difficult colleagues.",
+            "type": "S"
+        },
+        {
+            "q": "Do you celebrate religious holidays that require time off?",
+            "type": "B"
+        },
+        {
+            "q": "Describe a time when you had to work under a very tight deadline with limited resources.",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Kubernetes state management and sharding.",
+            "type": "S"
+        },
+        {
+            "q": "Can you describe our company values and how you align with them?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Next.js testing?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Python latency?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain caching within the context of TensorFlow architecture?",
+            "type": "S"
+        },
+        {
+            "q": "In Vue, how does CI/CD impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle AWS auth in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "Will your family commitments interfere with travel?",
+            "type": "B"
+        },
+        {
+            "q": "Explain the difference between Spark CI/CD and algorithms.",
+            "type": "S"
+        },
+        {
+            "q": "When do you plan to retire?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle Docker serverless in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "Tell me about a time you handled a conflict.",
+            "type": "S"
+        },
+        {
+            "q": "When do you plan to retire?",
+            "type": "B"
+        },
+        {
+            "q": "How do you stay updated with industry trends?",
+            "type": "S"
+        },
+        {
+            "q": "Have you ever taken a long medical leave?",
+            "type": "B"
+        },
+        {
+            "q": "Does your wife work as well?",
+            "type": "B"
+        },
+        {
+            "q": "Describe a time when you had to take lead on a project because someone else failed to deliver.",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Vue latency and scalability.",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain scalability within the context of Redis architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Do you have any health issues we should know about?",
+            "type": "B"
+        },
+        {
+            "q": "Can you explain serverless within the context of Next.js architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between TensorFlow microservices and algorithms.",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Python microservices in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between AWS state management and caching.",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain microservices within the context of Python architecture?",
+            "type": "S"
+        },
+        {
+            "q": "In Angular, how does state management impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "What is your religion?",
+            "type": "B"
+        },
+        {
+            "q": "Are you a digital native?",
+            "type": "B"
+        },
+        {
+            "q": "You seem energetic for your age, how do you do it?",
+            "type": "B"
+        },
+        {
+            "q": "How do you stay updated with industry trends?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Snowflake algorithms and performance.",
+            "type": "S"
+        },
+        {
+            "q": "In Spark, how does sharding impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle high-pressure situations, like a stress interview?",
+            "type": "S"
+        },
+        {
+            "q": "In GraphQL, how does algorithms impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Tell me about a time you had to deliver bad news to your team or client.",
+            "type": "S"
+        },
+        {
+            "q": "Describe a situation where you had to lead a team through a crisis.",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Docker testing?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Postgres state management and caching.",
+            "type": "S"
+        },
+        {
+            "q": "What is your communication style with stakeholders?",
+            "type": "S"
+        },
+        {
+            "q": "Describe a situation where you had to lead a team through a crisis.",
+            "type": "S"
+        },
+        {
+            "q": "How do you maintain your productivity and focus when the project requirements are constantly changing?",
+            "type": "S"
+        },
+        {
+            "q": "What is your native language?",
+            "type": "B"
+        },
+        {
+            "q": "How do you prioritize your work when you have multiple projects with overlapping deadlines?",
+            "type": "S"
+        },
+        {
+            "q": "Will your family commitments interfere with travel?",
+            "type": "B"
+        },
+        {
+            "q": "Explain the difference between Python algorithms and state management.",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Snowflake microservices and testing.",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle high-pressure situations, like a stress interview?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Vue auth in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "Do you have any physical limitations?",
+            "type": "B"
+        },
+        {
+            "q": "Have you ever taken a long medical leave?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle ethical dilemmas in the workplace?",
+            "type": "S"
+        },
+        {
+            "q": "In Kubernetes, how does state management impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Postgres sharding?",
+            "type": "S"
+        },
+        {
+            "q": "Describe a time when you had to work under a very tight deadline with limited resources.",
+            "type": "S"
+        },
+        {
+            "q": "Describe a time when you had to work under a very tight deadline with limited resources.",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Kafka sharding and latency.",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain testing within the context of Python architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Can you describe our company values and how you align with them?",
+            "type": "S"
+        },
+        {
+            "q": "How do you maintain your productivity and focus when the project requirements are constantly changing?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Kubernetes testing in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Postgres sharding in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "What does your husband think about this career move?",
+            "type": "B"
+        },
+        {
+            "q": "Can you describe our company values and how you align with them?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Kubernetes latency and scalability.",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle criticism of your work during a code review?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle feedback from colleagues?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Kubernetes performance and recursion.",
+            "type": "S"
+        },
+        {
+            "q": "Do you prefer a young team?",
+            "type": "B"
+        },
+        {
+            "q": "Do you have a babysitter for your kids?",
+            "type": "B"
+        },
+        {
+            "q": "Where is your accent from?",
+            "type": "B"
+        },
+        {
+            "q": "Explain the difference between Postgres scalability and recursion.",
+            "type": "S"
+        },
+        {
+            "q": "In Postgres, how does CI/CD impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "In Redis, how does CI/CD impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "How is your mental health?",
+            "type": "B"
+        },
+        {
+            "q": "What is your religion?",
+            "type": "B"
+        },
+        {
+            "q": "Tell me about a time you had to deliver bad news to your team or client.",
+            "type": "S"
+        },
+        {
+            "q": "Describe a time when you had to take lead on a project because someone else failed to deliver.",
+            "type": "S"
+        },
+        {
+            "q": "What is your approach to code reviews?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle feedback from colleagues?",
+            "type": "S"
+        },
+        {
+            "q": "In Docker, how does serverless impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Have you ever taken a long medical leave?",
+            "type": "B"
+        },
+        {
+            "q": "In TensorFlow, how does caching impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Are you comfortable reporting to someone much younger than you?",
+            "type": "B"
+        },
+        {
+            "q": "In React, how does recursion impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for GCP microservices?",
+            "type": "S"
+        },
+        {
+            "q": "What church do you go to?",
+            "type": "B"
+        },
+        {
+            "q": "What are the best practices for Snowflake algorithms?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Docker latency and testing.",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Postgres state management?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Spark algorithms?",
+            "type": "S"
+        },
+        {
+            "q": "Can you describe our company values and how you align with them?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain serverless within the context of Redis architecture?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for GCP algorithms?",
+            "type": "S"
+        },
+        {
+            "q": "Do you celebrate religious holidays that require time off?",
+            "type": "B"
+        },
+        {
+            "q": "Can you explain state management within the context of Spark architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain auth within the context of GraphQL architecture?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Python serverless in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "When did you graduate from high school?",
+            "type": "B"
+        },
+        {
+            "q": "Explain the difference between Azure scalability and CI/CD.",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain microservices within the context of NoSQL architecture?",
+            "type": "S"
+        },
+        {
+            "q": "What is your native language?",
+            "type": "B"
+        },
+        {
+            "q": "Are you on any medication that affects your work?",
+            "type": "B"
+        },
+        {
+            "q": "How do you maintain your productivity and focus when the project requirements are constantly changing?",
+            "type": "S"
+        },
+        {
+            "q": "Does your wife work as well?",
+            "type": "B"
+        },
+        {
+            "q": "In Spark, how does caching impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain monitoring within the context of React architecture?",
+            "type": "S"
+        },
+        {
+            "q": "How many more years do you see yourself working?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle Redis CI/CD in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "What is your religion?",
+            "type": "B"
+        },
+        {
+            "q": "Explain the difference between AWS recursion and sharding.",
+            "type": "S"
+        },
+        {
+            "q": "What is your communication style with stakeholders?",
+            "type": "S"
+        },
+        {
+            "q": "How do you prioritize your work when you have multiple projects with overlapping deadlines?",
+            "type": "S"
+        },
+        {
+            "q": "Are you planning to have children soon?",
+            "type": "B"
+        },
+        {
+            "q": "Are you on any medication that affects your work?",
+            "type": "B"
+        },
+        {
+            "q": "When did you graduate from high school?",
+            "type": "B"
+        },
+        {
+            "q": "Can you explain performance within the context of Azure architecture?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle mistakes or failures in your work?",
+            "type": "S"
+        },
+        {
+            "q": "Do you need a visa to work here?",
+            "type": "B"
+        },
+        {
+            "q": "Can you explain monitoring within the context of GraphQL architecture?",
+            "type": "S"
+        },
+        {
+            "q": "In GCP, how does auth impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain state management within the context of Spark architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Do you have a babysitter for your kids?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle React state management in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain algorithms within the context of Angular architecture?",
+            "type": "S"
+        },
+        {
+            "q": "What is your religion?",
+            "type": "B"
+        },
+        {
+            "q": "What is your native language?",
+            "type": "B"
+        },
+        {
+            "q": "Where were you originally born?",
+            "type": "B"
+        },
+        {
+            "q": "How old are you exactly?",
+            "type": "B"
+        },
+        {
+            "q": "Describe a situation where you had to work with extremely difficult colleagues.",
+            "type": "S"
+        },
+        {
+            "q": "How do you prioritize tasks under a tight deadline?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle GCP caching in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "Is your spouse okay with you working nights?",
+            "type": "B"
+        },
+        {
+            "q": "What motivated you to apply for this specific role at our company?",
+            "type": "S"
+        },
+        {
+            "q": "What is your communication style with stakeholders?",
+            "type": "S"
+        },
+        {
+            "q": "Which neighborhood did you grow up in?",
+            "type": "B"
+        },
+        {
+            "q": "Describe a situation where you had to work with extremely difficult colleagues.",
+            "type": "S"
+        },
+        {
+            "q": "Are you a single parent?",
+            "type": "B"
+        },
+        {
+            "q": "In Angular, how does microservices impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain serverless within the context of Redis architecture?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Angular state management in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "Tell me about a time you had a major conflict with a manager.",
+            "type": "S"
+        },
+        {
+            "q": "How old are you exactly?",
+            "type": "B"
+        },
+        {
+            "q": "Describe your experience working in diverse team environments.",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Redis state management and serverless.",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Python caching?",
+            "type": "S"
+        },
+        {
+            "q": "Describe your experience working in diverse team environments.",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Kafka performance?",
+            "type": "S"
+        },
+        {
+            "q": "Is your spouse okay with you working nights?",
+            "type": "B"
+        },
+        {
+            "q": "When did you graduate from high school?",
+            "type": "B"
+        },
+        {
+            "q": "What is your approach to code reviews?",
+            "type": "S"
+        },
+        {
+            "q": "Do you prefer a young team?",
+            "type": "B"
+        },
+        {
+            "q": "Are you a digital native?",
+            "type": "B"
+        },
+        {
+            "q": "What are the best practices for Kafka monitoring?",
+            "type": "S"
+        },
+        {
+            "q": "What does your husband think about this career move?",
+            "type": "B"
+        },
+        {
+            "q": "Can you explain sharding within the context of Azure architecture?",
+            "type": "S"
+        },
+        {
+            "q": "What is your religion?",
+            "type": "B"
+        },
+        {
+            "q": "What are the best practices for NoSQL microservices?",
+            "type": "S"
+        },
+        {
+            "q": "Describe a time when you had to take lead on a project because someone else failed to deliver.",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle GraphQL state management in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "Tell me about a time you had to deliver bad news to your team or client.",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between GCP testing and caching.",
+            "type": "S"
+        },
+        {
+            "q": "What is your communication style with stakeholders?",
+            "type": "S"
+        },
+        {
+            "q": "Tell me about a time you handled a conflict.",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Azure microservices?",
+            "type": "S"
+        },
+        {
+            "q": "In Snowflake, how does serverless impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "What is your communication style with stakeholders?",
+            "type": "S"
+        },
+        {
+            "q": "How do you prioritize tasks under a tight deadline?",
+            "type": "S"
+        },
+        {
+            "q": "Where were you originally born?",
+            "type": "B"
+        },
+        {
+            "q": "What is your religion?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle ethical dilemmas in the workplace?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle ethical dilemmas in the workplace?",
+            "type": "S"
+        },
+        {
+            "q": "What church do you go to?",
+            "type": "B"
+        },
+        {
+            "q": "Do you need a visa to work here?",
+            "type": "B"
+        },
+        {
+            "q": "What church do you go to?",
+            "type": "B"
+        },
+        {
+            "q": "Give an example of a time when you had to explain a complex technical concept to a non-technical stakeholder under pressure.",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle React microservices in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Postgres recursion in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "What are your long-term career goals within this organization?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle ethical dilemmas in the workplace?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Docker recursion?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain scalability within the context of Spark architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Python sharding and scalability.",
+            "type": "S"
+        },
+        {
+            "q": "Describe a situation where you had to lead a team through a crisis.",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain caching within the context of GCP architecture?",
+            "type": "S"
+        },
+        {
+            "q": "In GCP, how does serverless impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between GraphQL algorithms and recursion.",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Redis recursion in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle criticism of your work during a code review?",
+            "type": "S"
+        },
+        {
+            "q": "Describe a time when you had to take lead on a project because someone else failed to deliver.",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle React serverless in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Redis CI/CD?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain sharding within the context of Snowflake architecture?",
+            "type": "S"
+        },
+        {
+            "q": "You seem energetic for your age, how do you do it?",
+            "type": "B"
+        },
+        {
+            "q": "What are the best practices for Angular microservices?",
+            "type": "S"
+        },
+        {
+            "q": "Describe a situation where you had to work with extremely difficult colleagues.",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle ethical dilemmas in the workplace?",
+            "type": "S"
+        },
+        {
+            "q": "How do you stay updated with industry trends?",
+            "type": "S"
+        },
+        {
+            "q": "Describe a time when you had to take lead on a project because someone else failed to deliver.",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle the pressure of live production outages and system failures?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Docker scalability?",
+            "type": "S"
+        },
+        {
+            "q": "Tell me about a time you had to deliver bad news to your team or client.",
+            "type": "S"
+        },
+        {
+            "q": "When did you graduate from high school?",
+            "type": "B"
+        },
+        {
+            "q": "How do you react when you are faced with a task that you don't know how to complete?",
+            "type": "S"
+        },
+        {
+            "q": "What is your greatest weakness and how are you working to improve it?",
+            "type": "S"
+        },
+        {
+            "q": "What church do you go to?",
+            "type": "B"
+        },
+        {
+            "q": "Explain the difference between React CI/CD and microservices.",
+            "type": "S"
+        },
+        {
+            "q": "Are you planning to have children soon?",
+            "type": "B"
+        },
+        {
+            "q": "You seem energetic for your age, how do you do it?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle React sharding in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "How do you prioritize tasks under a tight deadline?",
+            "type": "S"
+        },
+        {
+            "q": "In Spark, how does latency impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Kubernetes monitoring and serverless.",
+            "type": "S"
+        },
+        {
+            "q": "Can you describe our company values and how you align with them?",
+            "type": "S"
+        },
+        {
+            "q": "What would you do if you were halfway through a project and realized you had made a significant technical mistake?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle GCP scalability in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "Describe a situation where you had to work with extremely difficult colleagues.",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Snowflake latency and scalability.",
+            "type": "S"
+        },
+        {
+            "q": "Describe a time when you had to work under a very tight deadline with limited resources.",
+            "type": "S"
+        },
+        {
+            "q": "In React, how does state management impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Azure algorithms in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "Are you a citizen of this country?",
+            "type": "B"
+        },
+        {
+            "q": "Can you explain recursion within the context of Vue architecture?",
+            "type": "S"
+        },
+        {
+            "q": "What is your approach to code reviews?",
+            "type": "S"
+        },
+        {
+            "q": "How do you prioritize your work when you have multiple projects with overlapping deadlines?",
+            "type": "S"
+        },
+        {
+            "q": "What is your religion?",
+            "type": "B"
+        },
+        {
+            "q": "Can you explain CI/CD within the context of Python architecture?",
+            "type": "S"
+        },
+        {
+            "q": "In Kafka, how does scalability impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Will your family commitments interfere with travel?",
+            "type": "B"
+        },
+        {
+            "q": "Can you explain monitoring within the context of Docker architecture?",
+            "type": "S"
+        },
+        {
+            "q": "How is your mental health?",
+            "type": "B"
+        },
+        {
+            "q": "Do you celebrate religious holidays that require time off?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle Vue scalability in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "How do you maintain your productivity and focus when the project requirements are constantly changing?",
+            "type": "S"
+        },
+        {
+            "q": "How old are you exactly?",
+            "type": "B"
+        },
+        {
+            "q": "Describe a situation where you had to work with extremely difficult colleagues.",
+            "type": "S"
+        },
+        {
+            "q": "What does your husband think about this career move?",
+            "type": "B"
+        },
+        {
+            "q": "What is your strategy for handling an aggressive or confrontational interviewer during a stress interview?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Vue caching?",
+            "type": "S"
+        },
+        {
+            "q": "In TensorFlow, how does scalability impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Redis testing and monitoring.",
+            "type": "S"
+        },
+        {
+            "q": "Describe a time when you had to take lead on a project because someone else failed to deliver.",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle high-pressure situations, like a stress interview?",
+            "type": "S"
+        },
+        {
+            "q": "How do you stay updated with industry trends?",
+            "type": "S"
+        },
+        {
+            "q": "In GraphQL, how does CI/CD impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Are you from the 'good' part of town?",
+            "type": "B"
+        },
+        {
+            "q": "Can you explain testing within the context of Kubernetes architecture?",
+            "type": "S"
+        },
+        {
+            "q": "How old are you exactly?",
+            "type": "B"
+        },
+        {
+            "q": "What are the best practices for Angular recursion?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain recursion within the context of Azure architecture?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle TensorFlow recursion in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "Tell me about a project you are proud of.",
+            "type": "S"
+        },
+        {
+            "q": "Are you a citizen of this country?",
+            "type": "B"
+        },
+        {
+            "q": "Do you have any health issues we should know about?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle the pressure of live production outages and system failures?",
+            "type": "S"
+        },
+        {
+            "q": "What church do you go to?",
+            "type": "B"
+        },
+        {
+            "q": "Do you have any health issues we should know about?",
+            "type": "B"
+        },
+        {
+            "q": "What is your greatest weakness and how are you working to improve it?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Kubernetes microservices?",
+            "type": "S"
+        },
+        {
+            "q": "What would you do if you were halfway through a project and realized you had made a significant technical mistake?",
+            "type": "S"
+        },
+        {
+            "q": "What is your greatest weakness and how are you working to improve it?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain serverless within the context of Docker architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Postgres monitoring and monitoring.",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle the pressure of live production outages and system failures?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain CI/CD within the context of React architecture?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Postgres algorithms in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Azure monitoring in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle high-pressure situations, like a stress interview?",
+            "type": "S"
+        },
+        {
+            "q": "Do you have a babysitter for your kids?",
+            "type": "B"
+        },
+        {
+            "q": "Tell me about a time you handled a conflict.",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain auth within the context of Snowflake architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Tell me about a time you had a major conflict with a manager.",
+            "type": "S"
+        },
+        {
+            "q": "What is your approach to code reviews?",
+            "type": "S"
+        },
+        {
+            "q": "Are you from the 'good' part of town?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle high-pressure situations, like a stress interview?",
+            "type": "S"
+        },
+        {
+            "q": "Tell me about a time you had a major conflict with a manager.",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain recursion within the context of Python architecture?",
+            "type": "S"
+        },
+        {
+            "q": "What is your religion?",
+            "type": "B"
+        },
+        {
+            "q": "In Docker, how does scalability impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain caching within the context of Kubernetes architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Do you need a visa to work here?",
+            "type": "B"
+        },
+        {
+            "q": "What is your approach to code reviews?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle TensorFlow auth in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Redis scalability?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle the pressure of live production outages and system failures?",
+            "type": "S"
+        },
+        {
+            "q": "What church do you go to?",
+            "type": "B"
+        },
+        {
+            "q": "Explain the difference between GCP performance and testing.",
+            "type": "S"
+        },
+        {
+            "q": "Do you prefer a young team?",
+            "type": "B"
+        },
+        {
+            "q": "Are you planning to have children soon?",
+            "type": "B"
+        },
+        {
+            "q": "When do you plan to retire?",
+            "type": "B"
+        },
+        {
+            "q": "Can you explain caching within the context of Kafka architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Will your family commitments interfere with travel?",
+            "type": "B"
+        },
+        {
+            "q": "What are the best practices for Kafka monitoring?",
+            "type": "S"
+        },
+        {
+            "q": "How old are you exactly?",
+            "type": "B"
+        },
+        {
+            "q": "How do you stay updated with industry trends?",
+            "type": "S"
+        },
+        {
+            "q": "Give an example of a time when you had to explain a complex technical concept to a non-technical stakeholder under pressure.",
+            "type": "S"
+        },
+        {
+            "q": "What is your native language?",
+            "type": "B"
+        },
+        {
+            "q": "Describe a time when you had to work under a very tight deadline with limited resources.",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain latency within the context of Docker architecture?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Redis CI/CD?",
+            "type": "S"
+        },
+        {
+            "q": "Do you celebrate religious holidays that require time off?",
+            "type": "B"
+        },
+        {
+            "q": "Does your wife work as well?",
+            "type": "B"
+        },
+        {
+            "q": "How do you prioritize tasks under a tight deadline?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Vue CI/CD?",
+            "type": "S"
+        },
+        {
+            "q": "What would you do if you were halfway through a project and realized you had made a significant technical mistake?",
+            "type": "S"
+        },
+        {
+            "q": "What is your greatest weakness and how are you working to improve it?",
+            "type": "S"
+        },
+        {
+            "q": "Do you prefer a young team?",
+            "type": "B"
+        },
+        {
+            "q": "Describe your experience working in diverse team environments.",
+            "type": "S"
+        },
+        {
+            "q": "Can you describe our company values and how you align with them?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain CI/CD within the context of NoSQL architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Can you describe our company values and how you align with them?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle high-pressure situations, like a stress interview?",
+            "type": "S"
+        },
+        {
+            "q": "Do you have any health issues we should know about?",
+            "type": "B"
+        },
+        {
+            "q": "Give an example of a time when you had to explain a complex technical concept to a non-technical stakeholder under pressure.",
+            "type": "S"
+        },
+        {
+            "q": "How do you stay updated with industry trends?",
+            "type": "S"
+        },
+        {
+            "q": "Describe a situation where you had to lead a team through a crisis.",
+            "type": "S"
+        },
+        {
+            "q": "Will your family commitments interfere with travel?",
+            "type": "B"
+        },
+        {
+            "q": "In React, how does monitoring impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain microservices within the context of Snowflake architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Do you have any physical limitations?",
+            "type": "B"
+        },
+        {
+            "q": "How do you prioritize tasks under a tight deadline?",
+            "type": "S"
+        },
+        {
+            "q": "Tell me about a time you handled a conflict.",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle feedback from colleagues?",
+            "type": "S"
+        },
+        {
+            "q": "What church do you go to?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle NoSQL performance in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "What does your husband think about this career move?",
+            "type": "B"
+        },
+        {
+            "q": "When do you plan to retire?",
+            "type": "B"
+        },
+        {
+            "q": "Describe a difficult technical challenge you solved.",
+            "type": "S"
+        },
+        {
+            "q": "What is your approach to code reviews?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Docker caching and caching.",
+            "type": "S"
+        },
+        {
+            "q": "In Azure, how does recursion impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle GCP serverless in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "What church do you go to?",
+            "type": "B"
+        },
+        {
+            "q": "In Azure, how does microservices impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "In AWS, how does serverless impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "What is your communication style with stakeholders?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle feedback from colleagues?",
+            "type": "S"
+        },
+        {
+            "q": "Do you celebrate religious holidays that require time off?",
+            "type": "B"
+        },
+        {
+            "q": "Give an example of a time when you had to explain a complex technical concept to a non-technical stakeholder under pressure.",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle AWS testing in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "How do you prioritize your work when you have multiple projects with overlapping deadlines?",
+            "type": "S"
+        },
+        {
+            "q": "Describe a time when you had to work under a very tight deadline with limited resources.",
+            "type": "S"
+        },
+        {
+            "q": "Tell me about a time you had a major conflict with a manager.",
+            "type": "S"
+        },
+        {
+            "q": "What is your communication style with stakeholders?",
+            "type": "S"
+        },
+        {
+            "q": "What is your religion?",
+            "type": "B"
+        },
+        {
+            "q": "Where is your accent from?",
+            "type": "B"
+        },
+        {
+            "q": "Explain the difference between GCP recursion and latency.",
+            "type": "S"
+        },
+        {
+            "q": "Tell me about a time you had to deliver bad news to your team or client.",
+            "type": "S"
+        },
+        {
+            "q": "Do you celebrate religious holidays that require time off?",
+            "type": "B"
+        },
+        {
+            "q": "Describe your experience working in diverse team environments.",
+            "type": "S"
+        },
+        {
+            "q": "Give an example of a time when you had to explain a complex technical concept to a non-technical stakeholder under pressure.",
+            "type": "S"
+        },
+        {
+            "q": "Describe a situation where you had to lead a team through a crisis.",
+            "type": "S"
+        },
+        {
+            "q": "Are you married?",
+            "type": "B"
+        },
+        {
+            "q": "Can you explain auth within the context of Redis architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Describe a situation where you had to work with extremely difficult colleagues.",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for GraphQL microservices?",
+            "type": "S"
+        },
+        {
+            "q": "You seem energetic for your age, how do you do it?",
+            "type": "B"
+        },
+        {
+            "q": "What are the best practices for Next.js microservices?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between GraphQL sharding and caching.",
+            "type": "S"
+        },
+        {
+            "q": "Which neighborhood did you grow up in?",
+            "type": "B"
+        },
+        {
+            "q": "Are you a citizen of this country?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle the pressure of live production outages and system failures?",
+            "type": "S"
+        },
+        {
+            "q": "Describe a situation where you had to work with extremely difficult colleagues.",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Angular serverless and auth.",
+            "type": "S"
+        },
+        {
+            "q": "Will your family commitments interfere with travel?",
+            "type": "B"
+        },
+        {
+            "q": "What are the best practices for GCP recursion?",
+            "type": "S"
+        },
+        {
+            "q": "You seem energetic for your age, how do you do it?",
+            "type": "B"
+        },
+        {
+            "q": "In Next.js, how does recursion impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Is your spouse okay with you working nights?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle mistakes or failures in your work?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Postgres latency?",
+            "type": "S"
+        },
+        {
+            "q": "Are you a single parent?",
+            "type": "B"
+        },
+        {
+            "q": "What is your native language?",
+            "type": "B"
+        },
+        {
+            "q": "What church do you go to?",
+            "type": "B"
+        },
+        {
+            "q": "Describe your experience working in diverse team environments.",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Kubernetes algorithms in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle mistakes or failures in your work?",
+            "type": "S"
+        },
+        {
+            "q": "Where is your accent from?",
+            "type": "B"
+        },
+        {
+            "q": "What church do you go to?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle Kafka serverless in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "What is your native language?",
+            "type": "B"
+        },
+        {
+            "q": "Can you explain recursion within the context of Python architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Describe a situation where you had to lead a team through a crisis.",
+            "type": "S"
+        },
+        {
+            "q": "What motivated you to apply for this specific role at our company?",
+            "type": "S"
+        },
+        {
+            "q": "Give an example of a time when you had to explain a complex technical concept to a non-technical stakeholder under pressure.",
+            "type": "S"
+        },
+        {
+            "q": "In Angular, how does auth impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "What are the best practices for Azure caching?",
+            "type": "S"
+        },
+        {
+            "q": "Are you a single parent?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle TensorFlow performance in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "What is your communication style with stakeholders?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain CI/CD within the context of Vue architecture?",
+            "type": "S"
+        },
+        {
+            "q": "In NoSQL, how does auth impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "How do you maintain your productivity and focus when the project requirements are constantly changing?",
+            "type": "S"
+        },
+        {
+            "q": "Do you celebrate religious holidays that require time off?",
+            "type": "B"
+        },
+        {
+            "q": "What is your native language?",
+            "type": "B"
+        },
+        {
+            "q": "Are you a citizen of this country?",
+            "type": "B"
+        },
+        {
+            "q": "Explain the difference between Kafka caching and scalability.",
+            "type": "S"
+        },
+        {
+            "q": "In Docker, how does testing impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "In GraphQL, how does microservices impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain CI/CD within the context of Docker architecture?",
+            "type": "S"
+        },
+        {
+            "q": "In Snowflake, how does scalability impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Are you from the 'good' part of town?",
+            "type": "B"
+        },
+        {
+            "q": "In Kubernetes, how does microservices impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "You seem energetic for your age, how do you do it?",
+            "type": "B"
+        },
+        {
+            "q": "Tell me about a time you had a major conflict with a manager.",
+            "type": "S"
+        },
+        {
+            "q": "Tell me about a project you are proud of.",
+            "type": "S"
+        },
+        {
+            "q": "Do you prefer a young team?",
+            "type": "B"
+        },
+        {
+            "q": "Are you married?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle Kubernetes CI/CD in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Next.js serverless in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle high-pressure situations, like a stress interview?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain serverless within the context of Snowflake architecture?",
+            "type": "S"
+        },
+        {
+            "q": "Explain the difference between Python serverless and microservices.",
+            "type": "S"
+        },
+        {
+            "q": "In Python, how does caching impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "In NoSQL, how does monitoring impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "Does your wife work as well?",
+            "type": "B"
+        },
+        {
+            "q": "In Snowflake, how does microservices impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle React auth in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle criticism of your work during a code review?",
+            "type": "S"
+        },
+        {
+            "q": "How do you handle Next.js microservices in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "Do you have any health issues we should know about?",
+            "type": "B"
+        },
+        {
+            "q": "Describe a time when you had to take lead on a project because someone else failed to deliver.",
+            "type": "S"
+        },
+        {
+            "q": "What is your religion?",
+            "type": "B"
+        },
+        {
+            "q": "How do you handle TensorFlow CI/CD in a high-traffic environment?",
+            "type": "S"
+        },
+        {
+            "q": "In Angular, how does scalability impact system availability?",
+            "type": "S"
+        },
+        {
+            "q": "How do you stay updated with industry trends?",
+            "type": "S"
+        },
+        {
+            "q": "Can you explain state management within the context of AWS architecture?",
+            "type": "S"
+        },
+        {
+            "q": "What is your religion?",
+            "type": "B"
+        }
+    ]
+}

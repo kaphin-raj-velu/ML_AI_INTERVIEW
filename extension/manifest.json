@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Interview Copilot AI",
+  "version": "1.0",
+  "description": "Real-time interview bias detection and legal compliance assistant.",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:8000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+}
